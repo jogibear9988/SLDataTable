@@ -1,0 +1,16 @@
+﻿<UserControl
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:bDG="clr-namespace:BindableDataGrid;assembly=BindableDataGrid"
+    x:Class="DataGridDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="600">
+    <StackPanel x:Name="LayoutRoot" Width="640" Height="600">
+        <bDG:BindableDataGrid x:Name="myBindableDG" Width="640" Height="400" />
+        <Button x:Name="btnCreateData" Content="Create sample data" Click="btnCreateData_Click" />
+        <Button x:Name="btnToString" Content="ToString" Click="btnToString_Click" />
+        <TextBox Text="Selected item/s" IsReadOnly="True"></TextBox>
+        <ListBox x:Name="lbSelectedItems" Height="100"></ListBox>
+    </StackPanel>
+</UserControl>

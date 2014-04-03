@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridDemo", "DataGridDemo\DataGridDemo.csproj", "{15892BE0-9474-4657-86CF-1B333424F2D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindableDataGrid", "BindableDataGrid\BindableDataGrid.csproj", "{53277F89-C6C2-4C57-939E-4ECB23EAE4BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15892BE0-9474-4657-86CF-1B333424F2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15892BE0-9474-4657-86CF-1B333424F2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15892BE0-9474-4657-86CF-1B333424F2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15892BE0-9474-4657-86CF-1B333424F2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53277F89-C6C2-4C57-939E-4ECB23EAE4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53277F89-C6C2-4C57-939E-4ECB23EAE4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53277F89-C6C2-4C57-939E-4ECB23EAE4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53277F89-C6C2-4C57-939E-4ECB23EAE4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
